@@ -4,5 +4,5 @@ spec:
       containers:
       - envFrom:
         - configMapRef:
-            name: todo-config
+            name: db-config
 
