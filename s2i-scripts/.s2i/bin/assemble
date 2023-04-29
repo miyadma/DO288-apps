@@ -9,9 +9,10 @@ echo "---> Enabling s2i support in httpd24 image"
 config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
-
+echo "---> Current working directory: $(pwd)"
 echo "---> Installing application source"
 cp -R /tmp/src/*.html ./
+
 
 DATE=`date "+%b %d, %Y @ %H:%M %p"`
 
